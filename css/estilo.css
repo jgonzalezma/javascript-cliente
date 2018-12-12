@@ -1,0 +1,142 @@
+#box1{
+	width: 700px;
+	height: 400px;
+	background-color: #84ffc3;
+	float: left;
+	border: solid;
+	border-color: blue;
+	border-width: 1px;
+	padding-left: 10px;
+}
+#box2{
+	width: 700px;
+	height: 400px;
+	background-color: #84ffc3;
+	float: left;
+	border: solid;
+	border-color: blue;
+	border-width: 1px;
+	margin-left: 1%;
+	padding-left: 10px;
+}
+
+#box3{
+	width: 700px;
+	height: 400px;
+	background-color: #84ffc3;
+	float: left;
+	border: solid;
+	border-color: blue;
+	border-width: 1px;
+	margin-top: 0.5%;
+	padding-left: 10px;
+
+}
+
+#box4{
+	width: 700px;
+	height: 400px;
+	background-color: #84ffc3;
+	float: left;
+	border: solid;
+	border-color: blue;
+	border-width: 1px;
+	margin-left: 1%;
+	margin-top: 0.5%;
+	padding-left: 10px;
+
+}
+#caja{
+	background-color: white;
+	width: 675px;
+	height: 300px;
+	margin-left: 1%;
+}
+#libro_creado{
+	border: solid;
+	border-color: blue;
+	border-width: 1px;
+	background-color: lightgreen;
+}
+#libro_creado:hover{
+	background-color: grey;
+}
+#libro_devuelto{
+	border: solid;
+	border-color: red;
+	border-width: 1px;
+	background-color: purple;	
+}
+#libro_devuelto:hover{
+	background-color: grey;
+}
+#libro_seleccionado{
+	border: solid;
+	border-color: blue;
+	border-width: 1px;
+	background-color: lightblue;
+}
+#libro_seleccionado:hover{
+	background-color: grey;
+}
+#t5:hover{
+	background-color: grey;
+}
+#prestado{
+	border:solid;
+	border-color: red;
+	border-width: 1px;
+	background-color: #f97e77;
+}
+.botones{
+	float: right; 
+	margin-right: 20px
+}
+h1{
+	text-align: center;
+}
+input{
+	margin-top: 15px;
+	border: solid;
+	border-color: black;
+	border-width: 1px;
+}
+textarea{
+	width: 670px;
+	height: 20px;
+	resize: none;
+}
+textarea:hover{
+	background-color: grey;
+}
+.imagenes {
+  width: 32px;
+  height: 32px;
+  display: block;
+  background-image: url('img/iconos.png');
+
+}
+#libro{
+	background-position: 0 0;
+}
+#busqueda{
+	background-position: 30px 30px;
+}
+#disponible{
+	background-position: 30px -30px;
+
+}
+#prestamo{
+	background-position: 30px 60px;
+
+}
+#error{
+	background-color: #f97e77;
+	border: solid;
+	border-color: red;
+}
+#error-genero{
+	width: 200px;
+	height: 100px;
+	background-color: red;
+}

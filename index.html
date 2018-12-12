@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Biblioteca</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+</head>
+<body>
+<div id="box1">
+	<form>
+<a class="imagenes" id="libro"></a><h1>Nuevo Libro</h1>
+			Título: <input type="text" name="titulo" style="width: 600px" id="error"><br>
+			Autor: <input type="text" name="autor" style="width: 600px"><br>
+			ISBN: <input type="number" name="isbn" style="width: 600px"><br><br>
+			Géneros:<br>
+		  <input type="checkbox" name="genero1" value="Policiaca" style="margin-left: 20px"> Policíaca
+		  <input type="checkbox" name="genero2" value="Historica"> Histórica
+		  <input type="checkbox" name="genero3" value="Ciencia Ficcion"> Ciencia ficción<br>
+		  <input type="checkbox" name="genero3" value="Fantasia" style="margin-left: 20px"> Fantasía
+		  <input type="checkbox" name="genero3" value="Romantica"> Romántica<br>
+		  <input type="submit" value="Añadir" class="botones">
+	</form>
+
+</div>
+<div id="box2">
+	<form>
+		<h1>Consultar Datos</h1>
+		Título: <input type="text" name="titulo2" style="width: 600px"><br>
+		Autor: <input type="text" name="autor2" style="width: 270px">
+		ISBN: <input type="number" name="isbn2" style="width: 270px"><br><br>
+		Géneros:<br> <input type="text" name="generos" style="width: 600px;height: 70px;margin-left: 40px"><br>
+		Prestado a: <br><input type="text" name="prestado_a" style="width: 250px"><br>
+		<input type="button" name="devolver" value="Devolver" class="botones">
+		<input type="button" name="prestar" value="Prestar" class="botones">
+	</form>
+</div>
+<div id="box3">
+		<h1>Disponibles</h1>
+		<div id="caja">
+			<textarea readonly>El señor de los anillos</textarea>
+			<textarea readonly id="libro_creado">Chacal</textarea>
+			<textarea readonly id="libro_devuelto">Philip Marlow</textarea>
+			<textarea readonly id="libro_seleccionado">El cementerio de Praga</textarea>
+			<textarea readonly id="t5">La princesa prometida</textarea>
+		</div>
+</div>
+<div id="box4">
+		<h1>Préstamos</h1>
+		<div id="caja">
+		<textarea readonly id="prestado">El aprendiz de guerrero</textarea>
+	</div>
+</div>
+
+</body>
+</html>
